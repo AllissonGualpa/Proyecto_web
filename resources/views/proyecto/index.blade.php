@@ -77,7 +77,7 @@
             <div class="gallery-item h-100">
               <img src="assets/img/gallery/terror.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="porCategoria.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="terror.blade.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 <h2>Terror</h2>
               </div>
             </div>
