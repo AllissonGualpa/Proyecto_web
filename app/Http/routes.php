@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\ProyectosController;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -11,4 +14,8 @@
 |
 */
 
-Route::get('/', 'ProyectosController@create');
+Route::get('/', 'proyectosController@index');
+//esta linea la entiendes?
+// cuando pones el / en la barra de busqueda llama al controlador proyectos controller y 
+// ejecuta el metodo index y por eso se muestra la pantalla de /
+//Route::get('/create', 'proyectosController@create');
